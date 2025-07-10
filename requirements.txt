@@ -7,15 +7,15 @@ langchain
 langchain-community
 langchain-core
 langchain-pinecone
-langchain-openai
+langchain_openai
 langchain-experimental
 
 # Vector DB and Embeddings
-pinecone-client
+pinecone
 sentence-transformers
 
 # PDF support
 pypdf
 
-# Deployment (optional, useful for Render/Heroku/GCP)
+# Deployment (for Render/Heroku/GCP)
 gunicorn
