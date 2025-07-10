@@ -1,11 +1,21 @@
-sentence-transformers==2.2.2
-langchain
+# Core dependencies
 flask
-pypdf
 python-dotenv
-pinecone[grpc]
-langchain-pinecone
+
+# LangChain ecosystem
+langchain
 langchain-community
-langchain_openai
-langchain_experimental
--e .
+langchain-core
+langchain-pinecone
+langchain-openai
+langchain-experimental
+
+# Vector DB and Embeddings
+pinecone-client
+sentence-transformers
+
+# PDF support
+pypdf
+
+# Deployment (optional, useful for Render/Heroku/GCP)
+gunicorn
